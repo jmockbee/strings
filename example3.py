@@ -1,5 +1,5 @@
 def first_and_last(message):
-    if message[-1] == message[1]:
+    if not message or message[0] == message[-1]:
         return True
     else:
         return False
