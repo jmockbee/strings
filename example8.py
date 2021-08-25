@@ -1,6 +1,6 @@
 def student_grade(name, grade):
 
-    return "{name} received {grade} on the exam"
+    return "{name} received {grade}% on the exam".format(name=name, grade=grade)
 
 
 print(student_grade("Reed", 80))
