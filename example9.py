@@ -4,5 +4,3 @@ print(price, with_tax)
 
 
 print("base price: ${:.2f}. with tax: ${:.2f}".format(price, with_tax))
-
-
