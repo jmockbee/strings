@@ -3,10 +3,12 @@ def is_palindrome(input_string):
     new_string = ""
     reverse_string = ""
     # Traverse through each letter of the input string
-    for letter in input_string.strip():
+    for letters in input_string.strip():
         # Add any non-blank letters to the
         # end of one string, and to the front
         # of the other string.
+        new_string = new_string + letters.replace("", "")
+        reverse_string = letters.replace(" ", "") + reverse_string
         if ___:
             new_string = ___
             reverse_string = ___
