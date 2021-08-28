@@ -3,7 +3,7 @@ def is_palindrome(input_string):
     new_string = ""
     reverse_string = ""
     # Traverse through each letter of the input string
-    for letters in input_string.strip():
+    for letters in input_string.lower():
         # Add any non-blank letters to the
         # end of one string, and to the front
         # of the other string.
