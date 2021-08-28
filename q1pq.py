@@ -9,11 +9,9 @@ def is_palindrome(input_string):
         # of the other string.
         new_string = new_string + letters.replace("", "")
         reverse_string = letters.replace(" ", "") + reverse_string
-        if ___:
-            new_string = ___
-            reverse_string = ___
+
     # Compare the strings
-    if ___:
+    if new_string.lower() == reverse_string.Lower():
         return True
     return False
 
