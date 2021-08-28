@@ -7,11 +7,12 @@ def is_palindrome(input_string):
         # Add any non-blank letters to the
         # end of one string, and to the front
         # of the other string.
-        new_string = new_string + letters.replace("", "")
-        reverse_string = letters.replace(" ", "") + reverse_string
+        if letters != "":
+            new_string = new_string + letters
+            reverse_string = letters + reverse_string
 
     # Compare the strings
-    if new_string.lower() == reverse_string.Lower():
+    if new_string >= reverse_string:
         return True
     return False
 
