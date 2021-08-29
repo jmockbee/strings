@@ -1,6 +1,6 @@
 def convert_distance(miles):
     km = miles * 1.6
-    result = "{} miles equals {:.2f} km".format(miles, km)
+    result = "{} miles equals {:.1f} km".format(miles, km)
     return result
 
 
